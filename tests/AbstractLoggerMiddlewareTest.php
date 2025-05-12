@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace GuzzleLogMiddleware\Test;
 
+use ColinODell\PsrTestLogger\TestLogger;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;
@@ -15,7 +16,6 @@ use GuzzleLogMiddleware\LogMiddleware;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Psr\Log\Test\TestLogger;
 
 abstract class AbstractLoggerMiddlewareTest extends TestCase
 {
