@@ -1,5 +1,5 @@
 {
-    "name": "gmponos/guzzle_logger",
+    "name": "madkom/guzzle-log-middleware",
     "description": "A Guzzle middleware to log request and responses automatically",
     "keywords": [
         "psr3",
@@ -8,11 +8,15 @@
         "logging"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/gmponos/guzzle-log-middleware",
+    "homepage": "https://github.com/madkom/guzzle-log-middleware",
     "authors": [
         {
             "name": "George Mponos",
             "email": "gmponos@gmail.com"
+        },
+        {
+            "name": "Michał Hytry",
+            "email": "m.hytry@madkom.pl"
         }
     ],
     "autoload": {
